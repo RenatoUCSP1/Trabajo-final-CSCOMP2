@@ -5,8 +5,7 @@ class PACMAN : public PERSONAJE {
       bool sigue_jugando;  
       
    public:
-      PACMAN(int color = COLOR_PACMAN, int x = LIMITE_IZQUIERDO + 14, int y = LIMITE_SUPERIOR + 15, int simbolo = CARACTER_PACMAN);
-      
+     
       void setPuntaje(int puntaje);
       int getPuntaje();
       void actualizar_puntaje();
