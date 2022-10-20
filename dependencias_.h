@@ -1,2 +1,2 @@
 using namespace System;
-using namespace System::Drawing;
+using namespace System.Drawing;
