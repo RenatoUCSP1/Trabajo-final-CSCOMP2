@@ -1,0 +1,23 @@
+class PACMAN : public PERSONAJE {
+   private:
+      int puntaje;
+      int vidas;     
+      bool sigue_jugando;  
+      
+   public:
+      PACMAN(int color = COLOR_PACMAN, int x = LIMITE_IZQUIERDO + 14, int y = LIMITE_SUPERIOR + 15, int simbolo = CARACTER_PACMAN);
+      
+      void setPuntaje(int puntaje);
+      int getPuntaje();
+      void actualizar_puntaje();
+      void setVidas(int vidas);
+      int getVidas();
+      void setSigueJugando(bool);
+      bool getSigueJugando();
+      bool choque(vector<FANTASMA> *,int &modo, FANTASMA **fantasma);
+      int estadoFinalPacman(); 
+      
+      void imprimirVidas();
+      void reiniciaCoordenadas();
+      bool comioPildora();
+};
