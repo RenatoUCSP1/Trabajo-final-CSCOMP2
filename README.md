@@ -20,7 +20,11 @@ https://youtu.be/vC0d1rDmPBs
 ## Integrantes:
 Renato Oscar Corrales Peña
 ## Lecciones aprendidas:
+
 Uso de la libreria sfml para dibujar formas
+
 uso de vectores bidimensionales para dibujar un mapa
+
 Si se implementa inteligencia artificil para lpos fantasmas
+
 No confiar en tus compañeros de grupo
