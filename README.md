@@ -12,7 +12,9 @@
    
 //nota estos comandos fueron simplificados con make las funciones respectivas son clean(para borrar los .o y los .hgh compile para crear los .o y .hgh y link para vincular y crear el ejecutable
 ## Proyectos de inspiracion:
+
 https://en.sfml-dev.org/forums/index.php?topic=15692.0
+
 https://youtu.be/vC0d1rDmPBs
 
 ## Integrantes:
