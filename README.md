@@ -23,8 +23,10 @@ Renato Oscar Corrales Peña
 
 Uso de la libreria sfml para dibujar formas
 
-uso de vectores bidimensionales para dibujar un mapa
+uso de vectores bidimensionales para dibujar un mapa y controlar la posicion de los fantasmas
 
-Si se implementa inteligencia artificil para lpos fantasmas
+Lo importante de los algoritmos de busqueda.
+
+Uso de clases abstractas para el dibujo de las diferentes figuras. 
 
 No confiar en tus compañeros de grupo
