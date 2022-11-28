@@ -1,13 +1,13 @@
 #pragma once
 #include <iostream>
 #include "header.hpp"
-class pacman{
-    unsigned char movimiento; //= direction
+#include "ente.hpp"
+class pacman:public ente{
     bool animation_over;
 	bool dead;
 	unsigned short animation_timer;
 	unsigned short energizer_timer;
-   
+   unsigned char movimiento;
    	Position position;
     
     
@@ -17,7 +17,6 @@ class pacman{
 	bool get_dead();
 	unsigned char get_direction();
 	unsigned short get_energizer_timer();
-	void draw(bool i_victory, sf::RenderWindow& i_window);
 	void reset();
 	void set_animation_timer(unsigned short i_animation_timer);
 	void set_dead(bool i_dead);

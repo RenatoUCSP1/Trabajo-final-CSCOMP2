@@ -40,8 +40,6 @@ struct Position
 {
 	short x;
 	short y;
-
-	//See? I'm an expert.
 	bool operator==(const Position& i_position)
 	{
 		return this->x == i_position.x && this->y == i_position.y;

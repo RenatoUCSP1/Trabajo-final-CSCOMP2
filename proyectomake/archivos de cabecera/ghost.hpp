@@ -1,12 +1,25 @@
 #pragma once
-class fantasma{
-int fdir;
-int _x, _y;
-int col;
+#include <sfml/Graphics.hpp>
+#include <sfml/Window.hpp>
+#include "Consumibles.hpp"
+#include "ente.hpp"
+class Ghost: public ente
+{
 public:
-fantasma(int x , int y , int color);
-void dibujar_fantasma() const;
-void borrar_fantasma() const;
-void mover_fantasma();
-void choque_pacman();
+	sf::CircleShape Top;
+	sf::RectangleShape Bottom;
+	//direction
+	float speed = 0.4;
+	int X, Y;
+	int arr[18][21];
+	Ghost() {}
+	Ghost(float x, float y, sf::Color a);
+	virtual ~Ghost();
+	void initBody(float x, float y, sf::Color a);
+	virtual void draw(sf::RenderTarget& target, Vector2f& direction);
+	void update(Vector2f &direction);
+	void render(sf::RenderTarget& target, Vector2f& direction);
+	bool wall(int a, int b);
+	void mapArray(vector<vector<GameTile*>> map, int x,int y);
+	void pathfinder(int x,int y);
 };

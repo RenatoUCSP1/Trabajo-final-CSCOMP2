@@ -2,6 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include "archivos de cabecera/pacman.hpp"
 #include "colision.cpp"
+#include "archivos de cabecera/ente.hpp"
 pacman::pacman() :
 	animation_over(0),
 	dead(0),
@@ -9,7 +10,7 @@ pacman::pacman() :
 	energizer_timer(0),
 	position({0, 0})
 {}
-void pacman::draw(bool i_victory, sf::RenderWindow& i_window){
+void pacman::draw(sf::RenderWindow& i_window){
     sf::CircleShape circulo(CELL_SIZE/2);
     circulo.setFillColor(sf::Color(255,255,0));
     circulo.setPosition(position.x, position.y);
@@ -82,9 +83,8 @@ if (-CELL_SIZE >= position.x)
 		position.x = PACMAN_SPEED - CELL_SIZE;
 	}
 
-	if (1 == map_collision(1, 0, position.x, position.y, i_map)) //When Pacman eats an energizer...
+	if (1 == map_collision(1, 0, position.x, position.y, i_map)) //Super pildora
 	{
-		//He becomes energized!
 		energizer_timer = static_cast<unsigned short>(ENERGIZER_DURATION / pow(2, i_level));
 	}
 	else
