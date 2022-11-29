@@ -35,6 +35,8 @@ Lo importante de los algoritmos de busqueda.
 
 Uso de clases abstractas para el dibujo de las diferentes figuras. 
 
+Se conocio ciertas alternativas para los archivos de cabecera con el    ``.hpp``
+
 No confiar en tus compañeros de grupo
 
 ## Desafios superados
