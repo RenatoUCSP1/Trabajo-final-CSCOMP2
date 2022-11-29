@@ -51,4 +51,6 @@ Renato Oscar Corrales Peña
 
 *  Problemas al momento de compilar con la libereria de SFML
 
-*  Problemas al momento de linkear (crear el ejecutable.
+*  Problemas al momento de linkear (crear el ejecutable).
+
+*  Falta de tutoriales
