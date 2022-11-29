@@ -27,28 +27,28 @@ Renato Oscar Corrales Peña
 
 ## Lecciones aprendidas:
 
-1. Uso de la libreria sfml para dibujar formas
+* Uso de la libreria sfml para dibujar formas
 
-2. Uso de vectores bidimensionales para dibujar un mapa y controlar la posicion de los fantasmas
+* Uso de vectores bidimensionales para dibujar un mapa y controlar la posicion de los fantasmas
 
-3. Lo importante de los algoritmos de busqueda.
+* Lo importante de los algoritmos de busqueda.
 
-Uso de clases abstractas para el dibujo de las diferentes figuras. 
+* Uso de clases abstractas para el dibujo de las diferentes figuras. 
 
-Se conocio ciertas alternativas para los archivos de cabecera con el    ``.hpp``
+*  Se conocio ciertas alternativas para los archivos de cabecera con el    ``.hpp``
 
-Uso de los vectores proporcionados por SFML como el vector2( util ya que se puede accedera su contenido sin necesidad de un get o set). 
+*  Uso de los vectores proporcionados por SFML como el vector2( util ya que se puede accedera su contenido sin necesidad de un get o set). 
 
-No confiar en tus compañeros de grupo
+*  No confiar en tus compañeros de grupo
 
 ## Desafios superados
 
-El abandono dl grupo y casi nula aportacion para el proyecto
+*  El abandono del grupo y casi nula aportacion para el proyecto
 
-Implementacion de la libreria SFML
+*  Implementacion de la libreria SFML
 
-Problemas en los archivos
+*  Problemas en los archivos
 
-Problemas al momento de compilar con la libereria de SFML
+*  Problemas al momento de compilar con la libereria de SFML
 
-problemas al momento de linkear (crear el ejecutable.
+*  Problemas al momento de linkear (crear el ejecutable.
