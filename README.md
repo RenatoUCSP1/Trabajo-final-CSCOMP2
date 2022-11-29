@@ -40,5 +40,13 @@ Se conocio ciertas alternativas para los archivos de cabecera con el    ``.hpp``
 No confiar en tus compañeros de grupo
 
 ## Desafios superados
+
 El abandono dl grupo y casi nula aportacion para el proyecto
+
 Implementacion de la libreria SFML
+
+Problemas en los archivos
+
+Problemas al momento de compilar con la libereria de SFML
+
+problemas al momento de linkear (crear el ejecutable.
