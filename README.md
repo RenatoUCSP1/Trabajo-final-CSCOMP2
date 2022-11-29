@@ -37,6 +37,6 @@ Uso de clases abstractas para el dibujo de las diferentes figuras.
 
 No confiar en tus compañeros de grupo
 
-##Desafios superados
+## Desafios superados
 El abandono dl grupo y casi nula aportacion para el proyecto
 Implementacion de la libreria SFML
