@@ -2,7 +2,8 @@
 #include <iostream>
 #include "header.hpp"
 #include "ente.hpp"
-class pacman:public ente{
+
+class Pacman:public Ente{
     bool animation_over;
 	bool dead;
 	unsigned short animation_timer;

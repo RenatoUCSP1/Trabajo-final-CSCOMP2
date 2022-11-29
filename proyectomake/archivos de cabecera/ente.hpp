@@ -1,5 +1,6 @@
-#include <SFML/Graphics.hpp>
-class ente{
+#ifndef ENTE_HPP
+#define ENTE_HPP
+class Ente{
     public:
     unsigned char movimiento; //= direction
     virtual void draw()= 0;
@@ -8,3 +9,4 @@ private:
     int _x;
     int _y;
 };
+#endif

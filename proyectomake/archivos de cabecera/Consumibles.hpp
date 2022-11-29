@@ -2,7 +2,7 @@
 #include <SFML/Graphics.hpp>
 using namespace sf;
 using namespace std;
-class GameTile
+class Consumibles
 {
 public:
 	int dir = 0;
@@ -15,7 +15,7 @@ public:
 
 	int food_Count = 0;
 
-	GameTile(float x, float y, bool a,Color b);
+	Consumibles(float x, float y, bool a,Color b);
 	void setUpTile();
 	void initFood();
 	int foodCount();

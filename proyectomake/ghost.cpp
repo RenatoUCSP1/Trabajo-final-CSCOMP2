@@ -1,5 +1,6 @@
 #include "archivos de cabecera/ghost.hpp"
 #include <iostream>
+#include "archivos de cabecera/header.hpp"
 
 Ghost::Ghost(float x, float y,sf::Color a)
 {

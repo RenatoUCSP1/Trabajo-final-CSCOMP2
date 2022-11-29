@@ -3,7 +3,8 @@
 #include <sfml/Window.hpp>
 #include "Consumibles.hpp"
 #include "ente.hpp"
-class Ghost: public ente
+#include "header.hpp"
+class Ghost: public Ente
 {
 public:
 	sf::CircleShape Top;

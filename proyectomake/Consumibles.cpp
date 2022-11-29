@@ -1,30 +1,30 @@
 #include "archivos de cabecera/Consumibles.hpp"
 
-void GameTile::setUpTile()
+void Consumibles::setUpTile()
 {
     this->tile.setSize({30.f,30.f});
     this->tile.setOutlineColor(Color::Yellow);
 }
 
-void GameTile::initFood()
+void Consumibles::initFood()
 {
     this->food.setFillColor(Color::White);
     this->food.setRadius(3.f);
 }
 
-int GameTile::foodCount()
+int Consumibles::foodCount()
 {
     return this->food_Count;
 }
 
-void GameTile::changeColor(Color a)
+void Consumibles::changeColor(Color a)
 {
     if (this->tile.getFillColor() != Color::Black)
         this->tile.setFillColor(a);
 }
 
 
-GameTile::GameTile(float x, float y, bool passable,sf::Color b)
+Consumibles::Consumibles(float x, float y, bool passable,sf::Color b)
 
 {
     if (b == Color(18, 97, 160)) {
