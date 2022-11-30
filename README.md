@@ -17,9 +17,11 @@ Se realizo como trabvajo final para el curso el videojuego de PacMan con la libr
 
 ![prueba](https://github.com/RenatoUCSP1/Trabajo-final-CSCOMP2/blob/024a5694a5893094d2b370d6139c74ea4d0d06f7/img/prueba%20de%20que%20alguna%20vez.png)
 
-Tambien se realizo la creacionde sprites queno se pudieron implementar al juego
+Tambien se realizo la creacion de sprites que no se pudieron implementar al juego
+
 
 ![sprites](https://github.com/RenatoUCSP1/Trabajo-final-CSCOMP2/blob/39dc666e58c6eff247962b88312f3921b0248235/img/Ghost_red.png)
+
 
 ## Proyectos de inspiracion:
 
@@ -40,6 +42,8 @@ Renato Oscar Corrales Peña
 * Lo importante de los algoritmos de busqueda.
 
 * Uso de clases abstractas para el dibujo de las diferentes figuras. 
+
+* Creacion de sptrites y manera de implementaros al juego(no se llego a implementar)
 
 *  Se conocio ciertas alternativas para los archivos de cabecera con el    ``.hpp``
 
