@@ -62,3 +62,6 @@ Renato Oscar Corrales Peña
 *  Problemas al momento de linkear (crear el ejecutable).
 
 *  Falta de tutoriales
+
+## Ultimo Commit
+Se añadio la carpeta ejecutable que contiene el proyecto rehecho desde cero, esto fue realizado a causa de los multiples errores encontrados esta veersion incompleta no contiene errores y puede generar una pantalla que  contiene los caracteres "#" los cuales dibujan un rectangulo azul, esta version del projecto no se pudo completar debido a la falta de tiempo
