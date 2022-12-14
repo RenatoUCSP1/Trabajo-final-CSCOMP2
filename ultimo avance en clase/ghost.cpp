@@ -43,7 +43,7 @@ bool Ghost::wall(int a, int b)
 	return true;
 }
 
-void Ghost::mapArray(vector<vector<GameTile*>> map, int x, int y)
+void Ghost::mapArray(vector<vector<Consumibles*>> map, int x, int y)
 {
 	for (int i = 0;i < map.size();i++) {
 		for (int j = 0;j < map[i].size();j++) {

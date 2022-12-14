@@ -1,16 +1,7 @@
 #pragma once
 constexpr unsigned char CELL_SIZE = 16;
 constexpr unsigned char FONT_HEIGHT = 16;
-constexpr unsigned char GHOST_1_CHASE = 2;
 
-constexpr unsigned char GHOST_2_CHASE = 1;
-constexpr unsigned char GHOST_3_CHASE = 4;
-constexpr unsigned char GHOST_ANIMATION_FRAMES = 6;
-constexpr unsigned char GHOST_ANIMATION_SPEED = 4;
-constexpr unsigned char GHOST_ESCAPE_SPEED = 4;
-
-constexpr unsigned char GHOST_FRIGHTENED_SPEED = 3;
-constexpr unsigned char GHOST_SPEED = 1;
 constexpr unsigned char MAP_HEIGHT = 21;
 constexpr unsigned char MAP_WIDTH = 21;
 constexpr unsigned char PACMAN_ANIMATION_FRAMES = 6;
