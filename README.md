@@ -49,8 +49,6 @@ Renato Oscar Corrales Peña
 
 *  Uso de los vectores proporcionados por SFML como el vector2( util ya que se puede accedera su contenido sin necesidad de un get o set). 
 
-*  No confiar en tus compañeros de grupo
-
 ## Desafios superados
 
 *  El abandono del grupo y casi nula aportacion para el proyecto
